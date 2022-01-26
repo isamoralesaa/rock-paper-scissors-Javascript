@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Juego Piedra, Papel o Tijera</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h2>Select an option to Play</h2>
+            <button class="btn rock" id="rock">Rock</button>
+            <button class="btn paper" id="paper">Paper</button>
+            <button class="btn scissors" id="scissors">Scissors</button>
+            <p>User Vs Computer</p>
+            <div class="score-board">
+                <div class="badge userLabel">User</div>
+                <div class="badge compuLabel">Comp</div>
+                <span class="userScore">0</span>&nbsp;:&nbsp;<span class="compScore">0</span>
+            </div>
+            <h2 class="resul"></h2>
+            <p class="info"></p>
+
+            <button class="btn btn-grey reset d-none">Restart Game</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="code.js"></script>
+</body>
+</html>
